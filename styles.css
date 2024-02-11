@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #8a4a0e;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.slider {
+  height: 300px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.pizza-specials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.special-item {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.testimonials {
+  margin-bottom: 20px;
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.three-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.column {
+  width: 30%;
+  padding: 10px;
+}
+
+footer {
+  background-color: #6b6868;
+}
